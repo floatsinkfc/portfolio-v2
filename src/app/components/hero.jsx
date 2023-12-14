@@ -10,7 +10,6 @@ import crane from "../img/crane.png"
 import buttonbackground from "../img/buttonbackground.png"
 import buttonbackground2 from "../img/button2background.png"
 
-
 export default function Hero() {
   return (
     <div className="w-screen h-screen flex">

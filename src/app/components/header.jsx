@@ -3,6 +3,8 @@ import Link from "next/link"
 import headerbackground from "../img/headerbackground.png"
 
 export default function Headers() {
+
+
   return (
     <div className="w-screen h-[100px] absolute z-30 overflow-hidden">
       <div className="w-screen h-[70px] flex items-center px-[10%] justify-between">
