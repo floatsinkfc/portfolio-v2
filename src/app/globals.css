@@ -10,3 +10,8 @@
   font-family: "inked"; 
   src: url("./font/VTKSINKED.ttf"); 
 }
+
+@font-face { 
+  font-family: "caros"; 
+  src: url("./font/caros.otf"); 
+}

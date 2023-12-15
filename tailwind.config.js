@@ -15,7 +15,8 @@ module.exports = {
       fontFamily: {
         darkline: ["darkline","sans-serif"], 
         inked: ["inked","sans"], 
-      }
+        caros: ["caros","sans-serif"], 
+      },
       
     },
   },

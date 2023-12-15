@@ -3,6 +3,7 @@ import About from "./components/about";
 import Cursor from "./components/cursor";
 import Headers from "./components/header";
 import Hero from "./components/hero";
+import Projects from "./components/projects";
 
 export default function Home() {
   return (
@@ -10,7 +11,11 @@ export default function Home() {
       <Headers/>
       <Hero/>
       <About/>
-      <Cursor/>
+      <Projects/>
+      <div>
+        <Cursor/>
+      </div>
+      
     </div>
   )
 }
