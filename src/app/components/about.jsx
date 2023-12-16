@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="w-screen min-h-screen overflow-hidden relative">
       <div id="about" className="-translate-y-10 absolute"></div>
-      <div className="absolute lg:-right-[272px] -right-[100px]  max-w-screen">
+      <div className="absolute lg:-right-[272px] -right-[400px]  max-w-screen">
         <div className="overflow-hidden ">
           <Image
             src={mountainBg}

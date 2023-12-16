@@ -33,7 +33,7 @@ export default function Projects() {
         whileInView={{ y:0, opacity: 1 }}
         transition={{ duration: 1, delay: 1}}
         viewport={{ once: true  }}
-        className=' border-b-[3px] border-black font-inked leading-[44px] text-[40px] break-words w-screen  '>Projects</motion.h1>
+        className=' border-b-[3px] border-black font-inked leading-[44px] text-[40px] break-words w-screen mt-9  '>Projects</motion.h1>
         </div>
         <div className="flex w-screen min-h-full mt-5 flex-col justify-center items-center ">
         {projectData.map((project) => (
