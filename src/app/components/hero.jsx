@@ -12,7 +12,7 @@ import buttonbackground2 from "../img/button2background.png"
 
 export default function Hero() {
   return (
-    <div className="w-screen h-screen flex">
+    <div className="w-screen h-screen flex" id="home">
       <div className="w-screen h-screen flex items-center justify-center flex-col gap-[20px] z-[2]">
         <h1 className= "font-inked md:text-[120px] font-normal flex flex-row text-center text-[60px]">Hi, I&#39;m Zi Jun Wang</h1>
         <div className="flex items-center ">
@@ -25,12 +25,12 @@ export default function Hero() {
           </Link>
         </div>
         <div className="flex md:gap-[100px] gap-[20px] z-[1] mt-5 flex-wrap justify-center">
-            <Link href="#projects" className="w-[260px] h-[80px] flex items-center justify-center text-white hover:animate-jump hover:animate-duration-1000 hover:animate-once ">
+            <Link href="#projects" className="z-[2] w-[260px] h-[80px] flex items-center justify-center text-white hover:animate-jump hover:animate-duration-1000 hover:animate-once ">
               <span  className=" z-[1] text-[24px] font-inked tracking-[10.8px] ">PROJECTS</span>
               <Image src={buttonbackground} alt="" className="w-[259px] h-[76px] absolute "></Image>
             </Link>
 
-            <Link href="#about" className="w-[260px] h-[80px] flex items-center justify-center text-white hover:animate-jump hover:animate-duration-1000 hover:animate-once">
+            <Link href="#about" className=" z-[2] w-[260px] h-[80px] flex items-center justify-center text-white hover:animate-jump hover:animate-duration-1000 hover:animate-once">
               <span className=" z-[1] text-[24px] font-inked tracking-[10.8px] ">RESUME</span>
               <Image src={buttonbackground2} alt="" className="w-[263px] h-[90px] absolute "></Image>
             </Link>

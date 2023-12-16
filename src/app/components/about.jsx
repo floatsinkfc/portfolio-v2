@@ -16,7 +16,7 @@ export default function About() {
                 <AboutMe/>
           </div>
         </div>
-      <Image src={mountainBg} alt="" className="w-[640px] h-[965px] absolute -right-[272px] top-[800px]"></Image>
+      <Image src={mountainBg} alt="" className="w-[640px] h-[965px] absolute -right-[272px] top-[800px] "></Image>
     </div>
   )
 }

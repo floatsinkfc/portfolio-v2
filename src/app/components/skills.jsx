@@ -9,7 +9,7 @@ const SkillsPage = () => {
       <div className='flex justify-between flex-wrap mt-1'>
         <motion.div 
         initial={{ opacity: 0, x: -10 }}
-        whileInView={{ opacity: 1, x: 20  }}
+        whileInView={{ opacity: 1, x: 0  }}
         transition={{ duration: 1, delay: 0.25}}
         viewport={{ once: true, amount: 0.5  }}
         className='flex text-center justify-center lg:flex-row flex-col lg:px-0 px-[20%] lg:absolute lg:left-[5%] w-full lg:w-auto'>
