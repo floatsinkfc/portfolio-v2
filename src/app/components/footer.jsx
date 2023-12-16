@@ -13,7 +13,7 @@ export default function Footer() {
     transition={{ duration: 1, delay: 0.5}}
     viewport={{ once: true, amount: "some"  }}
     className="w-screen min-h-[200px] bg-black overflow-hidden" >
-      <div className="flex w-screen min-h-[200px]  items-end justify-center flex-col gap-10 ">
+      <div className="flex w-screen min-h-[200px]  items-end justify-between flex-col md:gap-0 gap-20 ">
         <div className="grid md:grid-cols-3 w-screen h-full z-30  grid-cols-none ">
           <div className="  flex flex-col text-center gap-7">
             <h1 className=" text-white font-inked text-4xl mt-10">Resume</h1>
