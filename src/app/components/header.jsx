@@ -42,7 +42,7 @@ export default function Headers() {
           closed: { x: '100%' },
         }}
         transition={{ duration: 0.3 }}
-        className={`lg:hidden fixed top-0 right-0 h-screen w-screen bg-black text-white z-40`}
+        className={`lg:hidden fixed z-[999] top-0 right-0 h-screen w-screen bg-black text-white`}
       >
         <div className="flex flex-col items-center justify-center h-full">
           <Link href="/" onClick={toggleMenu} className="text-[30px] font-normal mb-6">
