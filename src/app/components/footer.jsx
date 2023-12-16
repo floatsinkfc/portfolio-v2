@@ -38,7 +38,7 @@ export default function Footer() {
                 <Image src={github} className="h-[30px] w-[30px] invert" alt=""></Image>
               </Link>
             </div>
-            <Link href="mailto:floatsinkfc@gmail.com" className="text-[#828282] font-caros text-[18px] font-normal break-words">Email Me Here</Link>
+              <Link href="mailto:floatsinkfc@gmail.com" className="text-[#828282] font-caros text-[18px] font-normal break-words">Email Me Here</Link>
           </div>
         </div>
         <h1 className="text-white font-inked mb-5 w-screen text-center z-30">Made with ♥️ by Zi Jun Wang</h1>

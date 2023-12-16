@@ -8,18 +8,22 @@ import buttonbackground from '../img/buttonbackground.png'
 import projectsPageBg from "../img/background2.png"
 
 export default function Projects() {
-
   return (
-    <div  className="w-screen min-h-screen overflow-hidden" >
-      <Image alt="" src={projectsPageBg} className="w-[1493px] h-[1493px] opacity-10 absolute z-0 left-[-736px] object-cover"></Image>
+    <div className="w-screen min-h-screen overflow-hidden">
+      <Image
+        alt=""
+        src={projectsPageBg}
+        className="w-[1493px] h-[1493px] opacity-10 absolute z-0 left-[-736px] object-cover"
+      />
       <div id="projects" className=' -translate-y-10 absolute'></div>
-      <motion.div 
-      initial={{ width: 250}}
-      whileInView={{ width: 576 }}
-      transition={{ duration: 1, delay: 1}}
-      viewport={{ once: true, amount: "some"  }}
-      className="w-[576px] h-[300px] absolute -left-[187px] items-center flex -translate-y-44 overflow-hidden">
-        <Image src={blossom} alt="" className="object-contain opacity-40 "></Image>
+      <motion.div
+        initial={{ width: 250 }}
+        whileInView={{ width: 576 }}
+        transition={{ duration: 1, delay: 1 }}
+        viewport={{ once: true, amount: "some" }}
+        className="max-w-[550px] h-[300px] absolute -left-[187px] items-center flex -translate-y-44 overflow-hidden"
+      >
+        <Image src={blossom} alt="" className="object-contain opacity-40 w-full" />
       </motion.div>
 
       <div className="flex justify-center text-center  lg:mt-0 mt-20 flex-wrap ">
