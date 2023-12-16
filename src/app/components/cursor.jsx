@@ -25,9 +25,9 @@ const Cursor = () => {
       {[...Array(14)].map((_, index) => (
         <div
           key={index}
-          className="brush  h-[41px] w-[28px] fixed top-0 left-0 z-0 "
+          className="brush lg:flex hidden h-[41px] w-[28px] fixed top-0 left-0 z-[0] "
         >
-          <Image src={paintBrush} alt="" className="h-[41px] w-[28px] opacity-10"></Image>
+          <Image src={paintBrush} alt="" className="h-[41px] w-[28px] opacity-10 "></Image>
         </div>
       ))}
     </>
