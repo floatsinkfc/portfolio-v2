@@ -10,7 +10,7 @@ import projectsPageBg from "../img/background2.png"
 export default function Projects() {
 
   return (
-    <div  className="w-screen min-h-screen" >
+    <div  className="w-screen min-h-screen overflow-hidden" >
       <Image alt="" src={projectsPageBg} className="w-[1493px] h-[1493px] opacity-10 absolute z-0 left-[-736px] object-cover"></Image>
       <div id="projects" className=' -translate-y-10 absolute'></div>
       <motion.div 
@@ -18,7 +18,7 @@ export default function Projects() {
       whileInView={{ width: 576 }}
       transition={{ duration: 1, delay: 1}}
       viewport={{ once: true, amount: "some"  }}
-      className="w-[576px] h-[300px] absolute -left-[187px] items-center flex -translate-y-44">
+      className="w-[576px] h-[300px] absolute -left-[187px] items-center flex -translate-y-44 overflow-hidden">
         <Image src={blossom} alt="" className="object-contain opacity-40 "></Image>
       </motion.div>
 

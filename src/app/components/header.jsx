@@ -68,12 +68,14 @@ export default function Headers() {
           </motion.button>
         </div>
       </motion.div>
-
-      <Image
+      <div className='w-full overflow-hidden'>
+        <Image
         src={headerbackground}
         alt=""
         className=" -z-10 min-w-[2400px] h-[357px] top-[-150px] left-[-200px] absolute"
       />
+      </div>
+      
     </div>
   );
 }

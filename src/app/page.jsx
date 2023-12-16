@@ -10,7 +10,7 @@ import ScrollToTopButton from "./components/scrollback";
 
 export default function Home() {
   return (
-    <div className="w-screen bg-[#F4F3F4] min-h-screen ">
+    <div className="w-screen bg-[#F4F3F4] min-h-screen  ">
       <Headers/>
       <Hero/>
       <About/>
