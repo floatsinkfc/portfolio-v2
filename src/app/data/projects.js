@@ -2,23 +2,23 @@
 const projectData = [
   { 
     id: 1, 
-    name: 'FlameGrade', 
-    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
+    name: 'Flame Grades', 
+    image: '',
     techused: "React Tailwind Python Vercel",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc.",
-    video: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4',
+    description: "FlameGrade enables students to effortlessly explore and evaluate professors, access detailed insights into general education and major-specific classes, and make informed decisions based on comprehensive class statistics, including average GPAs and grade distributions.",
+    video: '/video/flamegrades.mp4',
     github: "https://github.com/floatsinkfc/flamegrade",
     link: "https://flamegrades.vercel.app/",
   },
   { 
     id: 2, 
-    name: 'FlameGrade', 
+    name: 'ACM Merch Store', 
     image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
-    techused: "React Tailwind Python Vercel",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc.",
-    video: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-    github: "",
-    link: "https://flamegrades.vercel.app/",
+    techused: "React Tailwind Nextjs Pocketbase",
+    description: "Elevate your style with exclusive ACM-themed merchandise. From trendy apparel to tech accessories, express your passion for computing in style. Shop now for quality and distinctive items that showcase your love for technology.",
+    video: '',
+    github: "https://github.com/acm-uic/marketplace",
+    link: "",
   },
   
 ];

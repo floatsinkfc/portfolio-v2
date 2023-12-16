@@ -2,11 +2,17 @@ import Link from "next/link"
 import Image from "next/image"
 import linkedin from '../img/linkedin.png'
 import github from '../img/github.png'
+import { motion } from "framer-motion"
 
 export default function Footer() {
 
   return (
-    <div  className="w-screen min-h-[200px] bg-black" >
+    <motion.div
+    initial={{ y:40, opacity: 0}}
+    whileInView={{ y:0, opacity: 1 }}
+    transition={{ duration: 1, delay: 0.5}}
+    viewport={{ once: true, amount: "some"  }}
+    className="w-screen min-h-[200px] bg-black" >
       <div className="flex w-screen min-h-[200px]  items-end justify-center flex-col gap-10 ">
         <div className="grid md:grid-cols-3 w-screen h-full z-30  grid-cols-none ">
           <div className="  flex flex-col text-center gap-7">
@@ -37,6 +43,6 @@ export default function Footer() {
         </div>
         <h1 className="text-white font-inked mb-5 w-screen text-center z-30">Made with ♥️ by Zi Jun Wang</h1>
       </div>
-    </div>
+    </motion.div>
   )
 }

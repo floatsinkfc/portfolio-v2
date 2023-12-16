@@ -90,7 +90,12 @@ const ContactForm = () => {
       </div>
       <div className='lg:grid px-[20%] lg:grid-cols-2 mt-8 flex-wrap font-caros'>
         
-        <div className=" w-full z-[10]">
+        <motion.div 
+          initial={{ x:-20, opacity: 0}}
+          whileInView={{ x:0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5}}
+          viewport={{ once: true, amount: "some"  }}
+          className=" w-full z-[10]">
 
           <form onSubmit={handleSubmit} className="space-y-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -175,11 +180,16 @@ const ContactForm = () => {
             
             </div>
           </form>
-        </div>
+        </motion.div>
 
-        <div className='flex w-full h-full justify-center items-center'>
+        <motion.div 
+        initial={{ x:20, opacity: 0}}
+        whileInView={{ x:0, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5}}
+        viewport={{ once: true, amount: "some"  }}
+        className='flex w-full h-full justify-center items-center'>
           <Image src={sun} alt='' className='w-[300px] h-[300px] animate-bounce animate-duration-[10000ms] hidden lg:flex'></Image>
-        </div>
+        </motion.div>
 
       </div>
     </div>
