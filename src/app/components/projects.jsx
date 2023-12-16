@@ -44,7 +44,7 @@ export default function Projects() {
               transition={{ duration: 1, delay: 0.5}}
               viewport={{ once: true, amount: "some"  }}
               className="md:min-w-[500px] lg:max-w-[500px] w-full h-[320px] flex items-center justify-center">
-                <video className="md:h-[65%] md:w-[70%] h-[50%] w-[75%] rounded-lg -translate-x-4 -translate-y-2 md:-translate-x-6 md:-translate-y-5" autoPlay disablePictureInPicture  muted loop>
+                <video className="md:h-[65%] md:w-[70%] h-[50%] w-[75%] rounded-lg -translate-x-4 -translate-y-2 md:-translate-x-6 md:-translate-y-5" autoPlay disablePictureInPicture  muted loop playsInline>
                   <source src={project.video} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
