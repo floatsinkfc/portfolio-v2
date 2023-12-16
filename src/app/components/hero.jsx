@@ -38,7 +38,7 @@ export default function Hero() {
         </div>
 
       </div>
-      <div className="z-0 absolute w-screen h-full overflow-hidden ">
+      <div className="z-0 absolute w-screen h-full overflow-x-hidden ">
         <Image src={mountain} alt="" className="h-[470px] w-[528px] absolute top-[360px] -left-[228px] lg:scale-100 scale-50 md:scale-75"></Image>
         <Image src={bamboo} alt="" className="h-[388px] w-[568px] absolute top-[-110px] -left-[206px] lg:scale-100 scale-50 md:scale-75"></Image>
         <Image src={boat} alt="" className="h-[226px] w-[226px] absolute top-[187px] right-[190px] lg:scale-100 scale-0 md:scale-75"></Image>
