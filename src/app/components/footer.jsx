@@ -12,7 +12,7 @@ export default function Footer() {
     whileInView={{ y:0, opacity: 1 }}
     transition={{ duration: 1, delay: 0.5}}
     viewport={{ once: true, amount: "some"  }}
-    className="w-screen min-h-[200px] bg-black" >
+    className="w-screen min-h-[200px] bg-black overflow-hidden" >
       <div className="flex w-screen min-h-[200px]  items-end justify-center flex-col gap-10 ">
         <div className="grid md:grid-cols-3 w-screen h-full z-30  grid-cols-none ">
           <div className="  flex flex-col text-center gap-7">
