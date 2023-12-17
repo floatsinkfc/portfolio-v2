@@ -20,7 +20,7 @@ export default function Hero() {
           <Link href="https://www.linkedin.com/in/zi-jun-wang/" className="" target="_blank">
             <Image src={linkedin} className="h-[30px] w-[30px] ml-[14px] " alt=""></Image>
           </Link>
-          <Link href="https://github.com/floatsinkfc" className="" target="_blank">
+          <Link href="https://github.com/zijunw04" className="" target="_blank">
             <Image src={github} className="h-[30px] w-[30px] ml-[9px]" alt=""></Image>
           </Link>
         </div>
