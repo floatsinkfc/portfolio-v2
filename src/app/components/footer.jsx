@@ -7,11 +7,7 @@ import { motion } from "framer-motion"
 export default function Footer() {
 
   return (
-    <motion.div
-    initial={{ y:40, opacity: 0}}
-    whileInView={{ y:0, opacity: 1 }}
-    transition={{ duration: 1, delay: 0.5}}
-    viewport={{ once: true, amount: "some"  }}
+    <div
     className="w-screen min-h-[200px] bg-black overflow-hidden" >
       <div className="flex w-screen min-h-[200px]  items-end justify-between flex-col md:gap-0 gap-20 ">
         <div className="grid md:grid-cols-3 w-screen h-full z-30  grid-cols-none ">
@@ -38,11 +34,11 @@ export default function Footer() {
                 <Image src={github} className="h-[30px] w-[30px] invert" alt=""></Image>
               </Link>
             </div>
-              <Link href="mailto:floatsinkfc@gmail.com" className="text-[#828282] font-caros text-[18px] font-normal break-words">Email Me Here</Link>
+              <Link href="mailto:zijunwang0917@gmail.com" className="text-[#828282] font-caros text-[18px] font-normal break-words">Email Me Here</Link>
           </div>
         </div>
         <h1 className="text-white font-inked mb-5 w-screen text-center z-30">Made with ♥️ by Zi Jun Wang</h1>
       </div>
-    </motion.div>
+    </div>
   )
 }
