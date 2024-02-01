@@ -35,7 +35,7 @@ export default function Projects() {
         viewport={{ once: true  }}
         className=' border-b-[3px] border-black font-inked leading-[44px] text-[40px] break-words w-screen mt-9  '>Projects</motion.h1>
         </div>
-        <div className="flex w-screen min-h-full mt-5 flex-col justify-center items-center ">
+        <div className="flex w-screen min-h-full mt-5 flex-col justify-center items-center lg:gap-0 gap-20 ">
         {projectData.map((project) => (
             <div key={project.id} className='flex justify-start flex-row  lg:flex-nowrap flex-wrap '>
               <motion.div
@@ -44,18 +44,16 @@ export default function Projects() {
               transition={{ duration: 1, delay: 0.5}}
               viewport={{ once: true, amount: "some"  }}
               className="md:min-w-[500px] lg:max-w-[500px] w-full h-[320px] flex items-center justify-center">
-                <video className="md:h-[65%] md:w-[70%] h-[50%] w-[75%] rounded-lg -translate-x-4 -translate-y-2 md:-translate-x-6 md:-translate-y-5" autoPlay disablePictureInPicture  muted loop playsInline>
-                  <source src={project.video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                <Image src={projectBg} alt="" className="md:w-[500px] w-[400px]  h-[320px] absolute object-cover"></Image>
+                <Image src={project.image} alt="" width="1000" height="1000" className="lg:h-[70%] lg:w-[80%] w-[70%] rounded-lg border-b-8 border-r-8 border-black" >
+                </Image>
+      
               </motion.div>
               <motion.div 
               initial={{ x:20, opacity: 0}}
               whileInView={{ x:0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5}}
               viewport={{ once: true, amount: "some"  }}
-              className="flex  flex-col text-center lg:w-[445px] w-full items-center px-[20%] lg:px-0">
+              className="flex  flex-col text-center lg:w-[445px] w-full items-center px-[20%] lg:px-0 justify-center">
                 <h1 className='text-[20px] leading-7 font-caros text-left mt-6 '>{project.name} | {project.techused}</h1>
                 <p className=" text-[16px] font-caros text-[#828282] text-left mt-2">{project.description}</p>
                 <div className="w-full flex mt-4 justify-between flex-wrap">

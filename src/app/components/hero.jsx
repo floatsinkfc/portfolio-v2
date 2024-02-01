@@ -30,7 +30,7 @@ export default function Hero() {
               <Image src={buttonbackground} alt="" className="w-[259px] h-[76px] absolute "></Image>
             </Link>
 
-            <Link href="#about" className=" z-[2] w-[260px] h-[80px] flex items-center justify-center text-white hover:animate-jump hover:animate-duration-1000 hover:animate-once">
+            <Link href="/Zi_Resume.pdf" className=" z-[2] w-[260px] h-[80px] flex items-center justify-center text-white hover:animate-jump hover:animate-duration-1000 hover:animate-once">
               <span className=" z-[1] text-[24px] font-inked tracking-[10.8px] ">RESUME</span>
               <Image src={buttonbackground2} alt="" className="w-[263px] h-[90px] absolute "></Image>
             </Link>
